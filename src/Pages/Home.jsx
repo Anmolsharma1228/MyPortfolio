@@ -233,7 +233,7 @@ export const Home = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="pt-40 px-6 w-[800px] mx-auto select-none"
+        className="pt-40 px-6 mx-auto select-none"
       >
         {" "}
         <h2 className="text-center text-3xl font-semibold text-[#444444] mb-10">

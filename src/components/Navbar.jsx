@@ -2,19 +2,18 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[600px] px-3">
+    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 px-3">
       <div
         className="
           bg-white/80 backdrop-blur-lg 
           flex flex-wrap justify-center items-center
-          gap-3 sm:gap-5 md:gap-8
+          gap-3 sm:gap-5 md:gap-10
           px-4 py-3
           shadow-lg 
           font-semibold 
           text-gray-700 
           border border-white/50
           rounded-full
-          max-w-[90%]
           mx-auto
         "
       >
