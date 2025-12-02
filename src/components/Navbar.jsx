@@ -2,7 +2,7 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 px-3">
+    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 px-3 w-[500px]">
       <div
         className="
           bg-white/80 backdrop-blur-lg 
@@ -14,7 +14,6 @@ export const Navbar = () => {
           text-gray-700 
           border border-white/50
           rounded-full
-          mx-auto
         "
       >
         <a href="#Home" className="hover:text-black transition whitespace-nowrap">Home</a>
