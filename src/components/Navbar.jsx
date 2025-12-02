@@ -2,7 +2,7 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 px-3 w-[300px] sm:w-[500px]">
+    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 px-3 w-[420px] sm:w-[500px]">
       <div
         className="
           bg-white/80 backdrop-blur-lg 
