@@ -65,11 +65,10 @@ export const Home = () => {
             Contact me here
           </a>
           <a href="/CV.pdf" download>
-  <button className="cursor-pointer text-lg bg-white rounded-full px-6 py-3 flex items-center gap-2 shadow hover:shadow-lg transition font-semibold">
-    Download CV <BsDownload />
-  </button>
-</a>
-
+            <button className="cursor-pointer text-lg bg-white rounded-full px-6 py-3 flex items-center gap-2 shadow hover:shadow-lg transition font-semibold">
+              Download CV <BsDownload />
+            </button>
+          </a>
           <Link
             to="https://www.linkedin.com/in/anmol-sharma120"
             className="bg-white p-4 rounded-full text-2xl shadow hover:shadow-lg transition"
