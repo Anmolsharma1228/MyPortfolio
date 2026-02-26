@@ -7,6 +7,7 @@ import Appointment from "../assets/images/Appointment.png";
 import Artisan from '../assets/images/Artisan.png'
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { BsDownload } from "react-icons/bs";
+import ContactForm from "../components/ContactForm";
 export const Home = () => {
   return (
     <main className="px-6 md:px-20 py-10">
@@ -42,9 +43,9 @@ export const Home = () => {
           className="text-gray-700 text-lg leading-7 max-w-2xl"
         >
           {" "}
-          A skilled and versatile full-stack developer with expertise in
+          I'm a skilled and versatile Full-Stack developer with expertise in
           building robust and scalable web applications. With a strong
-          foundation in both front-end and back-end technologies, I specialize
+          foundation in front-end technologies, I specialize
           in creating seamless user experiences and efficient server-side
           solutions. I thrive on tackling challenging projects and collaborating
           with teams to deliver innovative solutions.{" "}
@@ -63,7 +64,7 @@ export const Home = () => {
             rel="noopener noreferrer"
             className="text-lg bg-slate-800 text-white rounded-full px-6 py-3 hover:bg-slate-900 transition font-semibold"
           >
-            Contact me here
+            Let’s Work Together
           </a>
           <a href="/CV.pdf" download>
             <button className="cursor-pointer text-lg bg-white rounded-full px-6 py-3 flex items-center gap-2 shadow hover:shadow-lg transition font-semibold">
@@ -100,9 +101,9 @@ export const Home = () => {
           {" "}
           About Me{" "}
         </h2>{" "}
-        <p className="text-lg leading-7 max-w-2xl mx-auto mt-4">
+        <p className="text-gray-700 text-lg leading-7 max-w-2xl mx-auto mt-4">
           {" "}
-          Hi, my name is Anmol Sharma, and I am a passionate Full Stack
+          Hi, my name is Anmol Sharma, and I am a passionate Full-Stack
           Developer focused on crafting clean, responsive, and user-friendly web
           interfaces. I enjoy turning ideas into interactive digital experiences
           using modern web technologies. I have completed my Bachelor of Arts
@@ -131,7 +132,7 @@ export const Home = () => {
           My Projects{" "}
         </h2>{" "}
         {/* PROJECT 1 */}{" "}
-        <Link to="https://travellwebapp.netlify.app/">
+        <a href="https://travellwebapp.netlify.app/">
           {" "}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -146,9 +147,7 @@ export const Home = () => {
               <h2 className="font-semibold text-xl mb-3">Travel Web</h2>{" "}
               <p className="text-sm text-gray-700 leading-6 mb-4">
                 {" "}
-                Developing a SPA <strong>“Travel Web App”</strong> — a modern
-                platform where users can easily search destinations, explore
-                travel options, and book hotels.{" "}
+                Built a responsive <strong>“travel booking”</strong> — SPA where users can explore destinations and book hotels. Implemented Redux for state management and optimized performance.{" "}
               </p>{" "}
               <div className="flex flex-wrap gap-3 mt-4 justify-center md:justify-start">
                 {" "}
@@ -173,16 +172,16 @@ export const Home = () => {
               />{" "}
             </div>{" "}
           </motion.div>{" "}
-        </Link>{" "}
+        </a>{" "}
         {/* PROJECT 2 */}{" "}
-        <Link to="https://doctoronlineappointment.netlify.app/">
+        <a href="https://doctoronlineappointment.netlify.app/">
           {" "}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
-            className="bg-indigo-100 py-4 px-4 rounded-2xl max-w-2xl mx-auto mt-10 flex flex-col md:flex-row items-center gap-8"
+            className="bg-emerald-100 py-4 px-4 rounded-2xl max-w-2xl mx-auto mt-10 flex flex-col md:flex-row items-center gap-8"
           >
             {" "}
             <div className="md:w-1/2 text-center md:text-left">
@@ -194,7 +193,7 @@ export const Home = () => {
                 {" "}
                 Developing a Full stack Application{" "}
                 <strong>“Online Doctor Appointment”</strong> — a modern platform
-                where user can easily book appointment and upload medicals
+                where users can easily book appointment and upload medicals
                 report.{" "}
               </p>{" "}
               <div className="flex flex-wrap gap-3 mt-4 justify-center md:justify-start">
@@ -226,16 +225,16 @@ export const Home = () => {
               />{" "}
             </div>{" "}
           </motion.div>{" "}
-        </Link>{" "}
+        </a>{" "}
         {/* PROJECT 3 */}{" "}
-        <Link to="https://www.artisandec.in/">
+        <a href="https://www.artisandec.in/">
           {" "}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
-            className="bg-indigo-100 py-4 px-4 rounded-2xl max-w-2xl mx-auto mt-10 flex flex-col md:flex-row items-center gap-8"
+            className="bg-orange-100 py-4 px-4 rounded-2xl max-w-2xl mx-auto mt-10 flex flex-col md:flex-row items-center gap-8"
           >
             {" "}
             <div className="md:w-1/2 text-center md:text-left">
@@ -245,7 +244,7 @@ export const Home = () => {
               </h2>{" "}
               <p className="text-sm text-gray-700 leading-6 mb-4">
                 {" "}
-                Developing a Front-End Application{" "}
+                Developing a Front-End Web Application{" "}
                 <strong>“Artisan Decor”</strong> — is a modern decorative products showcase website developed as a freelancing project. The platform highlights handcrafted interior decor items with a clean, responsive, and user-friendly design.{" "}
               </p>{" "}
               <div className="flex flex-wrap gap-3 mt-4 justify-center md:justify-start">
@@ -268,7 +267,7 @@ export const Home = () => {
               />{" "}
             </div>{" "}
           </motion.div>{" "}
-        </Link>{" "}
+        </a>{" "}
       </motion.section>{" "}
       {/* SKILLS SECTION */}{" "}
       <motion.section
@@ -303,7 +302,6 @@ export const Home = () => {
             "React.js",
             "Next.js",
             "Git / GitHub",
-            "Sql",
             "Node.js",
             "Express.js",
             "MongoDB",
@@ -322,41 +320,7 @@ export const Home = () => {
           ))}{" "}
         </motion.div>{" "}
       </motion.section>{" "}
-      {/* CONTACT SECTION */}{" "}
-      <motion.section
-        id="Contact"
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
-        className="pt-40 px-6"
-      >
-        {" "}
-        <h2 className="text-center text-3xl font-semibold text-[#444444] mb-10">
-          {" "}
-          Contact Me{" "}
-        </h2>{" "}
-        <form className="max-w-xl mx-auto flex flex-col gap-5">
-          {" "}
-          <input
-            type="email"
-            placeholder="Your Email"
-            className="w-full bg-white border border-gray-300 px-4 py-3 rounded-lg text-gray-700 focus:ring-2 focus:ring-gray-500"
-          />{" "}
-          <textarea
-            rows={6}
-            placeholder="Your Message..."
-            className="w-full bg-white border border-gray-300 px-4 py-3 rounded-lg text-gray-700 focus:ring-2 focus:ring-gray-500"
-          ></textarea>{" "}
-          <button
-            type="submit"
-            className="w-full bg-[#444444] text-white py-3 rounded-lg text-lg font-medium hover:bg-black transition"
-          >
-            {" "}
-            Send Message{" "}
-          </button>{" "}
-        </form>{" "}
-      </motion.section>{" "}
+      <ContactForm/>
     </main>
   );
 };
