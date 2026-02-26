@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import profile from "../assets/images/profile.jpg";
 import Hotel from "../assets/images/Hotel.png";
 import Appointment from "../assets/images/Appointment.png";
+import Artisan from '../assets/images/Artisan.png'
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { BsDownload } from "react-icons/bs";
 export const Home = () => {
@@ -220,6 +221,48 @@ export const Home = () => {
               <motion.img
                 whileHover={{ scale: 1.05 }}
                 src={Appointment}
+                alt="Doctor UI"
+                className="w-full max-w-sm rounded-lg shadow-md"
+              />{" "}
+            </div>{" "}
+          </motion.div>{" "}
+        </Link>{" "}
+        {/* PROJECT 3 */}{" "}
+        <Link to="https://www.artisandec.in/">
+          {" "}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.7 }}
+            viewport={{ once: true }}
+            className="bg-indigo-100 py-4 px-4 rounded-2xl max-w-2xl mx-auto mt-10 flex flex-col md:flex-row items-center gap-8"
+          >
+            {" "}
+            <div className="md:w-1/2 text-center md:text-left">
+              {" "}
+              <h2 className="font-semibold text-xl mb-3">
+                Artisan Decor – Freelancing Project
+              </h2>{" "}
+              <p className="text-sm text-gray-700 leading-6 mb-4">
+                {" "}
+                Developing a Front-End Application{" "}
+                <strong>“Artisan Decor”</strong> — is a modern decorative products showcase website developed as a freelancing project. The platform highlights handcrafted interior decor items with a clean, responsive, and user-friendly design.{" "}
+              </p>{" "}
+              <div className="flex flex-wrap gap-3 mt-4 justify-center md:justify-start">
+                {" "}
+                <span className="px-3 py-1 text-xs text-white bg-[#444444] rounded-full">
+                  Next.js
+                </span>{" "}
+                <span className="px-3 py-1 text-xs text-white bg-[#444444] rounded-full">
+                  Tailwind CSS
+                </span>{" "}
+              </div>{" "}
+            </div>{" "}
+            <div className="md:w-1/2 flex justify-center">
+              {" "}
+              <motion.img
+                whileHover={{ scale: 1.05 }}
+                src={Artisan}
                 alt="Doctor UI"
                 className="w-full max-w-sm rounded-lg shadow-md"
               />{" "}
