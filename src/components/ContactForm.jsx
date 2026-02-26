@@ -49,12 +49,14 @@ export default function ContactForm() {
           {" "}
           <input
             type="email"
+            name='user_email'
             placeholder="Your Email"
             required
             className="w-full bg-white border border-gray-300 px-4 py-3 rounded-lg text-gray-700 focus:ring-2 focus:ring-gray-500"
           />{" "}
           <textarea
             rows={6}
+            name='user_message'
             required
             placeholder="Your Message..."
             className="w-full bg-white border border-gray-300 px-4 py-3 rounded-lg text-gray-700 focus:ring-2 focus:ring-gray-500"
